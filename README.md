@@ -107,4 +107,6 @@ print(problem.summary(tour))
 ```
 
 ---
+## License
 
+MIT © BEY Heyam 2026
