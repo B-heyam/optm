@@ -1,0 +1,44 @@
+
+====================================================================
+  KNAPSACK -- 8-item knapsack
+====================================================================
+Algorithm                               Value   Weight    Time(ms)
+--------------------------------------------------------------------
+Greedy - Deterministic                     16       10       0.012
+Greedy - Nondeterministic                  16       10       0.044
+Local Search - First Impr.                 14       10       0.067
+Local Search - Best Impr.                  14       10       0.059
+Simulated Annealing                        16       10      10.165
+Genetic Algorithm                          16       10     102.143
+====================================================================
+
+===============================================================
+  TSP -- 8-city TSP
+===============================================================
+Algorithm                                Distance    Time(ms)
+---------------------------------------------------------------
+Greedy - Deterministic                        410       0.022
+Greedy - Nondeterministic                     320       0.039
+Local Search - First Impr.                    320       0.173
+Local Search - Best Impr.                     320       0.290
+Simulated Annealing                           320       9.108
+Genetic Algorithm                             320     162.582
+===============================================================
+
+====================================================================
+  WINNER SUMMARY
+====================================================================
+
+  [KNAPSACK]  Best value = 16
+    Tied for best  : Greedy - Deterministic, Greedy - Nondeterministic, Simulated Annealing, Genetic Algorithm
+    Fastest winner : Greedy - Deterministic  (0.012 ms)
+
+  [TSP]  Best distance = 320
+    Tied for best  : Greedy - Nondeterministic, Local Search - First Impr., Local Search - Best Impr., Simulated Annealing, Genetic Algorithm
+    Fastest winner : Greedy - Nondeterministic  (0.039 ms)
+
+  [OVERALL BEST ALGORITHM]
+    Genetic Algorithm, Greedy - Nondeterministic, Simulated Annealing
+    --> Wins on BOTH Knapsack and TSP
+
+====================================================================
