@@ -1,4 +1,4 @@
-# metaheuristic-optimizer
+# metaheuristic-optimizer    | BEY Heyam
 
 A Python framework for benchmarking classic optimization algorithms across combinatorial problems. Plug in a problem, run all algorithms, and get a side-by-side comparison of solution quality and runtime.
 
